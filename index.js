@@ -8,8 +8,9 @@ return arr;
 
 function johnLennonFacts(facts){
   var arr = [];
-  while (facts){
-    arr.push(facts + "!!!")
+  var i=0;
+  while (i<facts.length){
+    arr.push(facts + "!!!"); i++;
   }
   return arr;
 }
