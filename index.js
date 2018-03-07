@@ -10,7 +10,8 @@ function johnLennonFacts(facts){
   var arr = [];
   var i=0;
   while (i<facts.length){
-    arr.push(facts[i] + "!!!"); i++;
+    arr.push(facts[i] + "!!!"); 
+    i++;
   }
   return arr;
 }
@@ -18,7 +19,8 @@ function johnLennonFacts(facts){
 function iLoveTheBeatles(number){
   var arr = [];
   do {
-    arr.push("I love the Beatles!"); i++;
+    arr.push("I love the Beatles!"); 
+    number++;
   }
-  while (i<number);
+  while (number<15);
 }
