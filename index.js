@@ -8,7 +8,7 @@ return arr;
 
 function johnLennonFacts(facts){
   var arr = [];
-  while (var i<3){
+  while (facts){
     arr.push(facts + "!!!")
   }
   return arr;
